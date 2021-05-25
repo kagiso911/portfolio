@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.6rem;
+  width: 100%;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    29deg,
+    rgba(2, 0, 36, 0.969625350140056) 16%,
+    rgba(2, 0, 36, 0.969625350140056) 23%,
+    rgba(3, 12, 47, 0.8211659663865546) 100%
+  );
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 5px;
+  padding: 2.8rem 0;
+  font-size: 20px;
+  background-color: rgba(128, 128, 128, 0.466);
+}
+ul {
+  display: flex;
+  justify-content: flex-end;
+}
+ul li {
+  list-style: none;
+  margin-right: 2rem;
+  color: red;
+  letter-spacing: 3px;
+  
+  text-transform: uppercase;
+}
+ul li:nth-child(1) {
+  margin-right: auto;
+  padding-right: 2rem;
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+main div {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+}
+h2 {
+  font-size: 2rem;
+  letter-spacing: 6px;
+  color: white;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+.head_1 {
+  color: brown;
+}
+img {
+  width: 40rem;
+  height: 40rem;
+}
+
+/* .main-card {
+    width: 50%;
+    margin-left:40rem ;
+    color: white;
+  } */
+
+.card {
+  margin: 10rem auto;
+  width: 100rem;
+  height: 50rem;
+  padding: 7rem;
+  line-height: 3rem;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.089);
+  backdrop-filter: blur(20px);
+  color: rgba(240, 248, 255, 0.753);
+}
+
+main-icon {
+}
+footer {
+
+
+  height: 20rem;
+  background-color: rgba(128, 128, 128, 0.466);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* @media (max-width: 576px ) {
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;      
+    }
+
+    ul li{
+        justify-content: center;
+        margin-bottom:1rem;
+    }
+    ul li:nth-child(1){
+        align-items: center;
+        margin: 1rem auto  ;
+        padding: 0;
+    }
+} */
